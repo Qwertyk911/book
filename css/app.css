@@ -5,7 +5,7 @@ header h1 {
 body {
     margin: 0;
     width: 100%;
-    }
+}
 
 .cart {
     padding: 20px 50px;
@@ -32,12 +32,15 @@ body {
     font-size: 150%;
     margin-top: 50px;
 }
-header{
+
+header {
     position: relative;
 }
-.cart{
+
+.cart {
     position: absolute;
     right: 50px;
+    top: 20px;
 }
 
 .row {
@@ -47,12 +50,13 @@ header{
     align-items: center;
     padding: 0 20px;
 }
-.default{
+
+.default {
     background-color: Transparent;
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     border: 2px solid green;
     border-radius: 10px;
-    cursor:pointer;
+    cursor: pointer;
     overflow: hidden;
-    outline:none;
+    outline: none;
 }
