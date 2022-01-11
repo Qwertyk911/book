@@ -1,0 +1,58 @@
+header h1 {
+    padding: 10px 20px;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    }
+
+.cart {
+    padding: 20px 50px;
+}
+
+.boxes {
+    margin-top: 20px;
+}
+
+.verify {
+    margin-top: 20px;
+}
+
+.submit {
+    margin-top: 20px;
+    float: right;
+}
+
+.pagecheckout {
+    padding: 20px 50px;
+}
+
+.description {
+    font-size: 150%;
+    margin-top: 50px;
+}
+header{
+    position: relative;
+}
+.cart{
+    position: absolute;
+    right: 50px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+.default{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 2px solid green;
+    border-radius: 10px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
